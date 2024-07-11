@@ -21,5 +21,5 @@ It's not easy to find dependencies that use CGo. This tool was made to address t
 
 1. Change current directory to the one that contains your code base and `go.mod`
 Make sure all dependencies are present by running `go mod download`
-2. Install cgo-finder: `go install github.com/spring1843/cgo-finder`
+2. Install cgo-finder: `go install github.com/spring1843/cgo-finder@latest`
 3. Run the tool to generate report `cgo-finder`
